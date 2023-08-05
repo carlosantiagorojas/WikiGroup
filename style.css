@@ -42,9 +42,8 @@ header .navBar h2 {
 }
 
 .landingPresentation h1{
-    margin-top: 50px;
+    margin-top: 100px;
 }
-
 
 .landingPresentation p{
     font-weight: bold;
@@ -56,10 +55,29 @@ header .navBar h2 {
     color: white;
     border-radius: 15px;
     padding: 5px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .landingPresentation button:hover{
     color: #0D1B2A;
     cursor: pointer;
+}
+
+.landingProyect {
+    background-color: #E0E1DD;
+    color: #1B263B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.landingProyect .imageP{
+    max-width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.landingProyect .imageP img{
+    max-width: 100%
 }
