@@ -1,13 +1,11 @@
-* {
-    font-family: 'Poppins', sans-serif;
-}
-
 body{
     background-color: #0D1B2A;
 }
 
 header {
     background-color: #0D1B2A;
+    height: 10vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,9 +30,12 @@ header .navBar h2 {
 }
 
 .landingPresentation {
-    background-image: url("https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg");
+    background-image: url("https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?cs=srgb&dl=pexels-pixabay-270360.jpg&fm=jpg");
+    background-position: center;
     background-size: cover;
-    color: white;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: #778DA9;
     display: flex;
     justify-content: center;
     align-items: center;
