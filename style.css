@@ -1,12 +1,16 @@
 * {
     font-family: 'Poppins', sans-serif;
+}
+
+body{
     background-color: #0D1B2A;
 }
 
 header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+    background-color: #0D1B2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header div * {
@@ -25,4 +29,37 @@ header div *:hover {
 
 header .navBar h2 {
     padding: 5px;
+}
+
+.landingPresentation {
+    background-image: url("https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landingPresentation h1{
+    margin-top: 50px;
+}
+
+
+.landingPresentation p{
+    font-weight: bold;
+}
+
+.landingPresentation button{
+    background: linear-gradient(0deg, #415A77, #778DA9);
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+.landingPresentation button:hover{
+    color: #0D1B2A;
+    cursor: pointer;
 }
