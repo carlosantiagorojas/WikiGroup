@@ -49,11 +49,11 @@ body {
   font-size: 1.25rem;
   text-decoration: none;
   color: #e0e1dd;
+  margin-left: 0.20rem;
 }
 
 .banner__container {
-  background: url("../assets/images/bannerTemplate.jpg") center / cover
-    no-repeat;
+  background: url("../assets/images/bannerTemplate.jpg") center / cover no-repeat;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -63,6 +63,7 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
 .banner__container__description {
   display: flex;
   flex-direction: column;
