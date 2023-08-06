@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="/form.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <div class="nameLogo">
+            <div class="logo"></div>
+            <div>
+                <h1>Yordles</h1>
+            </div>
+        </div>
+        <div class="navBar">
+            <h2>Descripción</h2>
+            <h2>Proyecto</h2>
+            <h2>Contáctanos</h2>
+        </div>
+    </header>
+    <section class="formula">
+        <div class="Title">
+            <h1>Deja tu mensaje</h1>
+        </div>
+        <hr class="separador">
+        <form method="get">
+            <div class="nameAddress">
+                <div class="name">
+                    <input type="text" id="nombre" class="inputName" placeholder="Nombre">
+                </div>
+                <div class="address">
+                    <input type="text" id="correo" class="inputAddress" placeholder="Correo">
+                </div> 
+            </div>
+                <input type="text" id="asunto" class="inputSubject" placeholder="Asunto">
+                <textarea name="comment" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>       
+                <input type="submit" id="submission" value="Submit">
+        </form>
+    </section>
+    <script src="form.js"></script>
+</body>
+</html>
