@@ -68,7 +68,7 @@ header .navBar h2 {
 }
 
 .landingPresentation button{
-    background: linear-gradient(0deg, #415A77, #778DA9);
+    background-color: #580EF6;
     font-weight: bold;
     color: white;
     border-radius: 0.938rem;
@@ -92,7 +92,7 @@ header .navBar h2 {
     max-width: 30%;
 }
 
-.landingProyect .contenP h1{
+.landingProyect .contentP h1{
     color: white;
 }
 
