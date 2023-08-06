@@ -21,12 +21,29 @@ header div *:hover {
     cursor: pointer;
 }
 
+header .nameLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .nameLogo .logo {
+    margin-right: 0.313rem;
+}
+
+header .logo {
+    width: 3rem;
+    height: 3rem;
+    background-color:aqua;
+    border-radius: 50%;
+}
+
 .navBar {
     display: flex;
 }
 
 header .navBar h2 {
-    padding: 5px;
+    padding: 0.313rem;
 }
 
 .landingPresentation {
@@ -43,7 +60,7 @@ header .navBar h2 {
 }
 
 .landingPresentation h1{
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 .landingPresentation p{
@@ -54,9 +71,9 @@ header .navBar h2 {
     background: linear-gradient(0deg, #415A77, #778DA9);
     font-weight: bold;
     color: white;
-    border-radius: 15px;
-    padding: 5px 20px;
-    margin-bottom: 100px;
+    border-radius: 0.938rem;
+    padding: 0.313rem 1.25rem;
+    margin-bottom: 6.25rem;
 }
 
 .landingPresentation button:hover{
@@ -65,20 +82,82 @@ header .navBar h2 {
 }
 
 .landingProyect {
-    background-color: #E0E1DD;
-    color: #1B263B;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-.landingProyect .imageP{
-    max-width: 50%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.landingProyect img{
+    max-width: 30%;
 }
 
-.landingProyect .imageP img{
-    max-width: 100%
+.landingProyect .contenP h1{
+    color: white;
+}
+
+.landingOptions {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.landingOptions .firstOptions {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.landingOptions .firstOptions div{
+    background-color: aqua;
+}
+
+.landingOptions .secondOptions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.landingOptions .secondOptions div {
+    background-color: aqua;
+}
+
+footer .nameGithub {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .nameGithub img{
+    max-width: 4%;
+}
+
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .nameLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .nameLogo .logo {
+    margin-right: 0.313rem;
+}
+
+footer .logo {
+    width: 3rem;
+    height: 3rem;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+}
+
+footer hr{
+    width: 100%;
 }
