@@ -6,51 +6,6 @@ body {
 }
 
 /* Classes */
-.header__container {
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2.25rem 0 2.25rem;
-  height: 10vh;
-  text-decoration: none;
-}
-
-.name__logo__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #e0e1dd;
-}
-
-.name__logo__container a {
-  text-decoration: none;
-  color: #e0e1dd;
-}
-
-.logo {
-  width: 3rem;
-  height: 3rem;
-  background-color: aqua;
-  border-radius: 50%;
-  margin-right: 0.313rem;
-}
-
-.navBar {
-  display: flex;
-  width: 25%;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-
-.navBar a {
-  font-size: 1.25rem;
-  text-decoration: none;
-  color: #e0e1dd;
-  margin-left: 0.20rem;
-}
 
 .banner__container {
   background: url("../assets/images/bannerTemplate.jpg") center / cover no-repeat;
@@ -76,22 +31,6 @@ body {
   font-size: 4.75rem;
   font-weight: 800;
   margin-bottom: 0.625rem;
-}
-
-.button__container {
-  display: flex;
-  width: 25rem;
-  height: 5rem;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  border-radius: 1.56rem;
-  background: #580ef6;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #e0e1dd;
-  transition: transform 0.3s ease;
 }
 
 .about__project__container {
@@ -183,44 +122,10 @@ body {
   font-weight: bold;
 }
 
-.footer__container__icons {
-  display: flex;
-  height: 10vh;
-  justify-content: space-between;
-  padding: 0rem 2.25rem;
-  align-items: center;
-  color: #e0e1dd;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
-.footer__container__icons img {
-  width: 3rem;
-  height: 3rem;
-}
-
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #e0e1dd;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
 /* Pseudo-classes */
-
-.button__container:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
 
 .card:hover {
   transform: scale(1.05);
   cursor: pointer;
   animation: showFromBottom 1s forwards;
-}
-
-.navBar a:hover {
-  color: #580ef6;
 }
