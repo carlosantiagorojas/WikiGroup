@@ -29,51 +29,58 @@
       <div class="banner__container__description">
         <h1>Te invitamos a ser parte de nuestra gran familia</h1>
         <p>
-          Llena el formulario para estar en contacto con nosotros y no perderte ninguna novedad.
+          Llena el formulario para estar en contacto con nosotros y no perderte
+          ninguna novedad.
         </p>
       </div>
     </section>
 
     <section class="form__container">
-      <div class="title__container">
-        <h1>Deja tu mensaje</h1>
+      <div class="form__card">
+        <h1>Ponte en contacto</h1>
+        <form action="" class="form__questions">
+          <label class="form__label" for="">Nombre</label>
+          <input class="form__input" type="text" placeholder="Jhon Doe" />
+          <label class="form__label" for="">Correo</label>
+          <input
+            class="form__input"
+            type="text"
+            placeholder="JhonDoe@email.com"
+          />
+          <label class="form__label" for="">Asunto</label>
+          <input
+            class="form__input"
+            type="text"
+            placeholder="Solicitud de compra"
+          />
+          <label class="form__label" for="">Mensaje</label>
+          <textarea
+            class="form__textarea"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Escribe tu mensaje"
+          ></textarea>
+          <button class="button__container" type="submit">Enviar</button>
+        </form>
       </div>
-      <hr class="separator" />
-      <form method="get">
-        <div class="nameAddress__container">
-          <div class="name__container">
-            <input
-              type="text"
-              id="nombre"
-              class="inputName"
-              placeholder="Nombre"
-            />
-          </div>
-          <div class="address__container">
-            <input
-              type="text"
-              id="correo"
-              class="inputAddress"
-              placeholder="Correo"
-            />
-          </div>
-        </div>
-        <input
-          type="text"
-          id="asunto"
-          class="inputSubject"
-          placeholder="Asunto"
-        />
-        <textarea
-          name="comment"
-          id="mensaje"
-          cols="30"
-          rows="10"
-          placeholder="Mensaje"
-        ></textarea>
-        <input type="submit" id="submission" value="Submit" />
-      </form>
     </section>
-    <script src="scripts/form.js"></script>
+    <footer>
+      <div class="footer__container__icons">
+        <div class="name__logo__container">
+          <div class="logo"></div>
+          <a href="">
+            <h1>Yordles</h1>
+          </a>
+        </div>
+        <a href="">
+          <img src="../assets/images/Github.svg" alt="GitHub logo" />
+        </a>
+      </div>
+      <hr />
+      <h2 class="copyright">© 2023 Yordles, Inc. All rights reserved.</h2>
+    </footer>
   </body>
+  <script src="../scripts/form.js"></script>
 </html>
