@@ -1,0 +1,50 @@
+.header__container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.25rem 0 2.25rem;
+  height: 10vh;
+  text-decoration: none;
+}
+
+.name__logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e0e1dd;
+}
+
+.name__logo__container a {
+  text-decoration: none;
+  color: #e0e1dd;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  background-color: aqua;
+  border-radius: 50%;
+  margin-right: 0.313rem;
+}
+
+.navBar {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.navBar a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #e0e1dd;
+  margin-left: 0.2rem;
+}
+
+/* Pseudo-classes */
+.navBar a:hover {
+  color: #580ef6;
+}
