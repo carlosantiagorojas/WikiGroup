@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/form.css" />
+    <title>Contactanos</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/form.css">
-    <title>Formulario</title>
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="header__container">
-            <div class="name__logo__container">
-                <div class="logo"></div>
-                <a href="/index.html">
-                    <h1>Yordles</h1>
-                </a>
-            </div>
-            <nav class="navBar">
-                <a href="">Descripción</a>
-                <a href="">Proyecto</a>
-                <a href="/form.html">Contáctanos</a>
-            </nav>
+      <div class="header__container">
+        <div class="name__logo__container">
+          <div class="logo"></div>
+          <a href="../index.html">
+            <h1>Yordles</h1>
+          </a>
         </div>
+        <nav class="navBar">
+          <a href="">Descripción</a>
+          <a href="">Proyecto</a>
+          <a href="./form.html">Contáctanos</a>
+        </nav>
+      </div>
     </header>
+
+    <section class="banner__container">
+      <div class="banner__container__description">
+        <h1>Te invitamos a ser parte de nuestra gran familia</h1>
+        <p>
+          Llena el formulario para estar en contacto con nosotros y no perderte ninguna novedad.
+        </p>
+      </div>
+    </section>
+
     <section class="form__container">
-        <div class="title__container">
-            <h1>Deja tu mensaje</h1>
+      <div class="title__container">
+        <h1>Deja tu mensaje</h1>
+      </div>
+      <hr class="separator" />
+      <form method="get">
+        <div class="nameAddress__container">
+          <div class="name__container">
+            <input
+              type="text"
+              id="nombre"
+              class="inputName"
+              placeholder="Nombre"
+            />
+          </div>
+          <div class="address__container">
+            <input
+              type="text"
+              id="correo"
+              class="inputAddress"
+              placeholder="Correo"
+            />
+          </div>
         </div>
-        <hr class="separator">
-        <form method="get">
-            <div class="nameAddress__container">
-                <div class="name__container">
-                    <input type="text" id="nombre" class="inputName" placeholder="Nombre">
-                </div>
-                <div class="address__container">
-                    <input type="text" id="correo" class="inputAddress" placeholder="Correo">
-                </div>
-            </div>
-            <input type="text" id="asunto" class="inputSubject" placeholder="Asunto">
-            <textarea name="comment" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-            <input type="submit" id="submission" value="Submit">
-        </form>
+        <input
+          type="text"
+          id="asunto"
+          class="inputSubject"
+          placeholder="Asunto"
+        />
+        <textarea
+          name="comment"
+          id="mensaje"
+          cols="30"
+          rows="10"
+          placeholder="Mensaje"
+        ></textarea>
+        <input type="submit" id="submission" value="Submit" />
+      </form>
     </section>
     <script src="scripts/form.js"></script>
-</body>
-
+  </body>
 </html>
