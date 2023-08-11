@@ -8,7 +8,8 @@ body {
 /* Classes */
 
 .banner__container {
-  background: url("../assets/images/bannerTemplate.jpg") center / cover no-repeat;
+  background: url("../assets/images/bannerTemplate.jpg") center / cover
+    no-repeat;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -17,6 +18,10 @@ body {
   color: #e0e1dd;
   flex-direction: column;
   text-align: center;
+}
+
+.banner__container a {
+  text-decoration: none;
 }
 
 .banner__container__description {
