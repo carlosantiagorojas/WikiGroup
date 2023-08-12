@@ -43,16 +43,23 @@
         <h1>Ponte en contacto</h1>
         <form action="" class="form__questions">
           <label class="form__label" for="">Nombre</label>
-          <input class="form__input" type="text" placeholder="Jhon Doe" />
+          <input
+            class="form__input"
+            id="nombre"
+            type="text"
+            placeholder="Jhon Doe"
+          />
           <label class="form__label" for="">Correo</label>
           <input
             class="form__input"
+            id="correo"
             type="text"
             placeholder="JhonDoe@email.com"
           />
           <label class="form__label" for="">Asunto</label>
           <input
             class="form__input"
+            id="asunto"
             type="text"
             placeholder="Solicitud de compra"
           />
@@ -60,12 +67,14 @@
           <textarea
             class="form__textarea"
             name=""
-            id=""
+            id="mensaje"
             cols="30"
             rows="10"
             placeholder="Escribe tu mensaje"
           ></textarea>
-          <button class="button__container" type="submit">Enviar</button>
+          <button class="button__container" type="submit" id="submission">
+            Enviar
+          </button>
         </form>
       </div>
     </section>
