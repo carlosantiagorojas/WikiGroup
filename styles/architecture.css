@@ -1,0 +1,7 @@
+.title {
+    display: flex;
+    width: 1440px;
+    height: 760px;
+    align-items: center;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
