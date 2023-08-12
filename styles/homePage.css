@@ -78,6 +78,11 @@ body {
   font-weight: bold;
 }
 
+.pair__description a {
+  text-decoration: none;
+  align-self: center;
+}
+
 /* Pseudo-classes */
 
 .card:hover {
