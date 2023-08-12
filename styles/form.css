@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
-
 /* Styles to tags */
 body {
   background-color: #0d1b2a;
@@ -84,15 +82,15 @@ body {
   text-align: center;
 }
 
-.form__textarea{
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-    width: 60%;
-    text-align: center;
-    resize: none;
-    height: 10rem;
-    margin-bottom: 2rem;
+.form__textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 60%;
+  text-align: center;
+  resize: none;
+  height: 10rem;
+  margin-bottom: 2rem;
 }
 
 /* Pseudo-classes */
