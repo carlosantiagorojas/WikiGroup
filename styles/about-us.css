@@ -38,3 +38,77 @@ body {
   font-weight: 300;
   margin: 0;
 }
+
+.team__container {
+  display: flex;
+  padding: 50px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  align-self: stretch;
+}
+
+.team__title {
+  color: #e0e1dd;
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.team__cards__container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 100px 135px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.card__container {
+  color: #e0e1dd;
+  font-family: "Poppins", sans-serif;
+  background-color: #1b263b;
+  display: flex;
+  width: 603px;
+  height: 25%;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2rem;
+}
+
+.card__photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.languages__container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card__dev__name {
+  font-weight: 600;
+  font-size: 3rem;
+  margin: 0px;
+}
+
+.card__dev__role {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0px;
+}
+
+.card__container p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0px 1.5rem;
+}
