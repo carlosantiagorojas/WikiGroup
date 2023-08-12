@@ -41,7 +41,6 @@ body {
 
 .team__container {
   display: flex;
-  padding: 50px 0px;
   flex-direction: column;
   align-items: center;
   gap: 50px;
@@ -51,10 +50,11 @@ body {
 .team__title {
   color: #e0e1dd;
   font-family: "Poppins", sans-serif;
-  font-size: 64px;
+  font-size: 6rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 0px;
 }
 
 .team__cards__container {
