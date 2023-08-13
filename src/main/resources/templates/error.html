@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Links to fav icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon-16x16.png"
+    />
+
+    <link rel="manifest" href="/assets/site.webmanifest" />
+
+    <title>Something went wrong!</title>
+  </head>
+  <body>
+    <h1>Generic Error - <span th:text="${status}">Status</span></h1>
+    <p>Sorry for the inconvenience. Please contact the administrator.</p>
+    <br />
+    <ul>
+      <li>Timestamp: <span th:text="${timestamp}">Timestamp</span></li>
+      <li>Path: <span th:text="${path}">Path</span></li>
+      <li>Error: <span th:text="${error}">Error</span></li>
+    </ul>
+  </body>
+</html>
