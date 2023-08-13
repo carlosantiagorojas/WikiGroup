@@ -1,234 +1,227 @@
 /* Styles to tags */
 body {
-    background-color: #0d1b2a;
-  }
-  
-  /* Classes */
-  
-  .banner__container {
-    background: url("../assets/images/bannerTemplate.jpg") center / cover
-      no-repeat;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    color: #e0e1dd;
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .banner__container a {
-    text-decoration: none;
-  }
-  
-  .banner__container__description {
-    display: flex;
-    flex-direction: column;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    width: 80%;
-  }
-  
-  .banner__container__description h1 {
-    font-size: 4.75rem;
-    font-weight: 800;
-    margin-bottom: 0.625rem;
-  }
-  
-  .cards__container {
-    display: flex;
-    width: 1432px;
-    padding: 62px 63px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 75px 100px;
-    flex-wrap: wrap;
-  }
+  background-color: #0d1b2a;
+}
 
-  .cards__container2 {
-    display: flex;
-    width: 1432px;
-    padding: 62px 63px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 75px 100px;
-    flex-wrap: wrap;
-    background: #fffdfd;
-  }
+/* Classes */
 
-  .cards__container__description {
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
+.banner__container {
+  background: url("../assets/images/bannerTemplate.jpg") center / cover
+    no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  color: #e0e1dd;
+  flex-direction: column;
+  text-align: center;
+}
 
-  .cards__container__description2 {
-    color: #0D1B2A;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
-  
+.banner__container a {
+  text-decoration: none;
+}
 
+.banner__container__description {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 80%;
+}
 
+.banner__container__description h1 {
+  font-size: 4.75rem;
+  font-weight: 800;
+  margin-bottom: 0.625rem;
+}
+
+.cards__container {
+  display: flex;
+  padding: 62px 63px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 75px 100px;
+  flex-wrap: wrap;
+}
+
+.cards__container2 {
+  display: flex;
+  padding: 62px 63px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 75px 100px;
+  flex-wrap: wrap;
+  background: #fffdfd;
+}
+
+.cards__container__description {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.cards__container__description2 {
+  color: #0d1b2a;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
 
 .card {
-    position: relative;
-    width: 33.33rem;
-    height: 30.6rem;
+  position: relative;
+  width: 33.33rem;
+  height: 30.6rem;
 }
 
-.card .face{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 2.18rem;
-    overflow: hidden;
-    transition: .5s;
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 2.18rem;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-.card .front{
-    transform: rotateY(0deg);
+.card .front {
+  transform: rotateY(0deg);
 }
 
-.card .front img{
-    position: absolute;
-    width: 100%;
-    height: 85%;
-    object-fit: cover;
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
 }
 
-.card .front h3{
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    height:6rem;
-    color:#1B263B;
-    line-height: 6rem;
-    background:#fffdfd;    
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    font-family: Poppins;
-    border-bottom-left-radius: 2.18rem;
-    border-bottom-right-radius: 2.18rem;
+.card .front h3 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  color: #1b263b;
+  line-height: 6rem;
+  background: #fffdfd;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Poppins;
+  border-bottom-left-radius: 2.18rem;
+  border-bottom-right-radius: 2.18rem;
 }
 
-.card .back{
-    transform: rotateY(180deg);
-    background:#1B263B;
-    padding: 15px;
-    color: #fffdfd;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.card .back {
+  transform: rotateY(180deg);
+  background: #1b263b;
+  padding: 15px;
+  color: #fffdfd;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.card .back h3{
-    position:relative;
-    bottom: 0;
-    width: 100%;
-    height:6rem;
-    color:#fffdfd;
-    line-height: 6rem;
-    background:#1B263B;    
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    font-family: Poppins;
-    border-bottom-left-radius: 2.18rem;
-    border-bottom-right-radius: 2.18rem;
+.card .back h3 {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  color: #fffdfd;
+  line-height: 6rem;
+  background: #1b263b;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Poppins;
+  border-bottom-left-radius: 2.18rem;
+  border-bottom-right-radius: 2.18rem;
 }
 
-
-.card:hover .front{
-    transform: perspective(600px) rotateY(180deg);
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
 }
 
-.card:hover .back{
-    transform: perspective(600px) rotateY(360deg);
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
 }
 
 .card2 {
-    position: relative;
-    width: 33.33rem;
-    height: 30.6rem;
+  position: relative;
+  width: 33.33rem;
+  height: 30.6rem;
 }
 
-.card2 .face{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 2.18rem;
-    overflow: hidden;
-    transition: .5s;
+.card2 .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 2.18rem;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-.card2 .front{
-    transform: rotateY(0deg);
+.card2 .front {
+  transform: rotateY(0deg);
 }
 
-.card2 .front img{
-    position: absolute;
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
+.card2 .front img {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
 }
 
-.card2 .front h3{
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    height:6rem;
-    color:#fffdfd;
-    line-height: 6rem;
-    background:#1B263B;    
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    font-family: Poppins;
-    border-bottom-left-radius: 2.18rem;
-    border-bottom-right-radius: 2.18rem;
+.card2 .front h3 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  color: #fffdfd;
+  line-height: 6rem;
+  background: #1b263b;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Poppins;
+  border-bottom-left-radius: 2.18rem;
+  border-bottom-right-radius: 2.18rem;
 }
 
-.card2 .back{
-    transform: rotateY(180deg);
-    background:#1B263B;
-    padding: 15px;
-    color: #fffdfd;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.card2 .back {
+  transform: rotateY(180deg);
+  background: #1b263b;
+  padding: 15px;
+  color: #fffdfd;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.card2 .back h3{
-    position:relative;
-    width: 100%;
-    height:6rem;
-    color:#fffdfd;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    font-family: Poppins;
+.card2 .back h3 {
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  color: #fffdfd;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Poppins;
 }
 
-
-.card2:hover .front{
-    transform: perspective(600px) rotateY(180deg);
+.card2:hover .front {
+  transform: perspective(600px) rotateY(180deg);
 }
 
-.card2:hover .back{
-    transform: perspective(600px) rotateY(360deg);
+.card2:hover .back {
+  transform: perspective(600px) rotateY(360deg);
 }
