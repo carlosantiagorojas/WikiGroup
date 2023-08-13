@@ -34,8 +34,8 @@ Same happens with the anchor tag `<a>` and their href attribute, you can use the
   </div>
   <nav class="navBar">
     <a href="/about-us">Nosotros</a>
-    <a href="/project-description">Proyecto</a>
-    <a href="/form">Contáctanos</a>
+    <a href="/project">Proyecto</a>
+    <a href="/contact-us">Contáctanos</a>
   </nav>
 </div>
 ```
