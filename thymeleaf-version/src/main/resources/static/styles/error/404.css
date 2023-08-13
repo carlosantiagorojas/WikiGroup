@@ -1,0 +1,36 @@
+body {
+  background-color: #0d1b2a;
+}
+
+.error__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: #e0e1dd;
+  font-family: "Poppins", sans-serif;
+}
+
+.error__number {
+  text-align: center;
+  font-size: 10rem;
+  font-weight: bold;
+  letter-spacing: 3.25rem;
+}
+
+.error__quote {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.error__message {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.error__container a {
+  text-decoration: none;
+}
