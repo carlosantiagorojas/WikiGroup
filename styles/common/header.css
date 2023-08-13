@@ -28,6 +28,8 @@
   background-color: aqua;
   border-radius: 50%;
   margin-right: 0.313rem;
+  background-image: url(/assets/images/Yordles.jpg);
+  background-size: cover;
 }
 
 .navBar {
