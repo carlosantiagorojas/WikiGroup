@@ -46,6 +46,10 @@ body {
   flex-wrap: wrap;
 }
 
+.section__white__background {
+  background-color: #e0e1dd;
+}
+
 .cards__container2 {
   display: flex;
   padding: 62px 63px;
@@ -54,36 +58,32 @@ body {
   align-content: center;
   gap: 75px 100px;
   flex-wrap: wrap;
-  background: #fffdfd;
 }
 
-.cards__container__description {
-  color: #fff;
+.cards__title {
+  color: #e0e1dd;
   text-align: center;
-  font-family: Poppins;
-  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   line-height: normal;
 }
 
-.cards__container__description2 {
+.black {
   color: #0d1b2a;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+  padding: 2rem;
 }
 
 .card {
+  font-family: "Poppins", sans-serif;
   position: relative;
   width: 33.33rem;
   height: 30.6rem;
 }
 
 .card .face {
+  font-family: "Poppins", sans-serif;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -115,7 +115,6 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  font-family: Poppins;
   border-bottom-left-radius: 2.18rem;
   border-bottom-right-radius: 2.18rem;
 }
@@ -141,7 +140,6 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  font-family: Poppins;
   border-bottom-left-radius: 2.18rem;
   border-bottom-right-radius: 2.18rem;
 }
@@ -155,6 +153,7 @@ body {
 }
 
 .card2 {
+  font-family: "Poppins", sans-serif;
   position: relative;
   width: 33.33rem;
   height: 30.6rem;
@@ -192,12 +191,12 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  font-family: Poppins;
   border-bottom-left-radius: 2.18rem;
   border-bottom-right-radius: 2.18rem;
 }
 
 .card2 .back {
+  font-family: "Poppins", sans-serif;
   transform: rotateY(180deg);
   background: #1b263b;
   padding: 15px;
@@ -215,7 +214,6 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  font-family: Poppins;
 }
 
 .card2:hover .front {
