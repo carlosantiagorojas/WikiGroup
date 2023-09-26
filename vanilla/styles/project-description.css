@@ -48,7 +48,7 @@ body {
 .project__container__items {
   color: #778da9;
   font-family: Poppins;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -57,6 +57,10 @@ body {
   width: 100%;
   box-sizing: border-box;
   gap: 10%;
+}
+
+.project__container__items p{
+  max-width: 65rem;
 }
 
 .project__image {
