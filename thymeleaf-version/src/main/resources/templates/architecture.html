@@ -38,14 +38,14 @@
       <div class="header__container">
         <div class="name__logo__container">
           <div class="logo"></div>
-          <a href="/">
+          <a href="/index.html">
             <h1>Yordles</h1>
           </a>
         </div>
         <nav class="navBar">
-          <a href="/about-us">Nosotros</a>
-          <a href="/project">Proyecto</a>
-          <a href="/contact-us">Contáctanos</a>
+          <a href="/about-us.html">Nosotros</a>
+          <a href="/project-description.html">Proyecto</a>
+          <a href="/form.html">Contáctanos</a>
         </nav>
       </div>
     </header>
@@ -68,20 +68,21 @@
       <section class="pair__container">
         <div class="pair">
           <img
-            src="/assets/images/projectTemplate.svg"
+            src="/assets/images/ArquitecturaProyectoJaveriaba-Conceptual.drawio.png"
             alt="project image"
             class="pair__image"
           />
           <div class="pair__description">
             <h1 class="title">Modelo conceptual</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              El modelo conceptual describe la estructura y las relaciones clave
+              de un sistema de gestión de música en línea. Incluye entidades
+              como "Usuario", "Canción", "Lista de Reproducción" y
+              "Administrador". Los usuarios pueden "dar like" a las canciones, y
+              los administradores pueden crear y gestionar listas de
+              reproducción. Las relaciones principales son "Usuario da Like a
+              Canción" y "Administrador crea Lista de Reproducción". Este modelo
+              ayuda a comprender la lógica básica del sistema.
             </p>
           </div>
         </div>
@@ -91,19 +92,17 @@
           <div class="pair__description">
             <h1 class="title">Modelo contenedores</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              En el contexto de contenedores, se pueden usar tecnologías como
+              angular para frontend y SpringBoot para backend para implementar
+              el sistema de gestión de música en línea. Cada componente del
+              sistema, como la aplicación web, la base de datos y los servidores
+              de aplicación, se empaqueta en contenedores independientes. Esto
+              facilita la escalabilidad, la administración y la implementación
+              eficiente.
             </p>
           </div>
           <img
-            src="/assets/images/projectTemplate.svg"
+            src="/assets/images/ArquitecturaProyectoJaveriaba-Contenedores.drawio-1024x838.png"
             alt="project image"
             class="pair__image"
           />
@@ -112,25 +111,61 @@
       <section class="pair__container">
         <div class="pair">
           <img
-            src="/assets/images/projectTemplate.svg"
+            src="/assets/images/ArquitecturaProyectoJaveriaba-Componentes.drawio-1024x576.png"
             alt="project image"
             class="pair__image"
           />
           <div class="pair__description">
             <h1 class="title">Modelo componente</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              El componente de una página web en el sistema de gestión de música
+              en línea incluye todos los elementos que interactúan para brindar
+              una experiencia completa a los usuarios. En el frontend, se
+              encuentran los elementos de la interfaz de usuario, como botones
+              de "like", listas de reproducción, reproductor de música y
+              formularios de registro/inicio de sesión. Estos elementos se
+              implementan utilizando tecnologías web como HTML, CSS y
+              JavaScript. En el backend, hay componentes que gestionan la lógica
+              del sistema, como la autenticación de usuarios, la gestión de
+              listas de reproducción, la gestión de canciones y la interacción
+              con la base de datos. Estos componentes están escritos en
+              lenguajes de programación como Python, Ruby o Node.js y se
+              ejecutan en servidores web. El despliegue implica la
+              implementación de estos componentes en servidores, ya sea en una
+              infraestructura local o en la nube utilizando servicios como AWS,
+              Azure o Google Cloud. Se utiliza un servidor web (por ejemplo,
+              Apache o Nginx) para enrutar las solicitudes del cliente al
+              backend adecuado y servir los recursos frontend. La comunicación
+              entre el frontend y el backend se realiza a través de API RESTful
+              o GraphQL para garantizar la interacción fluida entre los
+              elementos del sistema. Este despliegue se puede administrar y
+              escalarse eficientemente utilizando herramientas de orquestación
+              de contenedores como Docker y Kubernetes.
             </p>
           </div>
         </div>
       </section>
     </main>
+    <section class="pair__container">
+      <div class="pair">
+        <img
+          src="/assets/images/db-music-list-EER.svg"
+          alt="project image"
+          class="pair__image"
+        />
+        <div class="pair__description">
+          <h1 class="title">Modelo de la base de datos</h1>
+          <p>
+            Estamos utilizando MySQL como nuestra base de datos. Utilizamos
+            MySQL Workbench para visualizar y diseñar la base de datos, y
+            también con Spring Boot generamos el esquema de la base de datos a
+            partir de nuestros modelos. Implementamos algunos disparadores y
+            procedimientos almacenados para gestionar lógica directamente en la
+            base de datos. Finalmente, desplegamos la base de datos en AWS RDS.
+          </p>
+        </div>
+      </div>
+    </section>
     <footer>
       <div class="footer__container__icons">
         <div class="name__logo__container">

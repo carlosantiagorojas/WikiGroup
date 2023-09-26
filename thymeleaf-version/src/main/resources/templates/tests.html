@@ -37,54 +37,1382 @@
       <div class="header__container">
         <div class="name__logo__container">
           <div class="logo"></div>
-          <a href="/">
+          <a href="/index.html">
             <h1>Yordles</h1>
           </a>
         </div>
         <nav class="navBar">
-          <a href="/about-us">Nosotros</a>
-          <a href="/project">Proyecto</a>
-          <a href="/contact-us">Contáctanos</a>
+          <a href="/about-us.html">Nosotros</a>
+          <a href="/project-description.html">Proyecto</a>
+          <a href="/form.html">Contáctanos</a>
         </nav>
       </div>
     </header>
     <main>
-      
-        <section class="banner__container">
-            <div class="banner__container__description">
-              <h1>Pruebas</h1>
-              <p>
-                Pruebas realizadas para verificar <br>
-                el correcto funcionamiento del proyecto
-              </p>
-            </div>
-            
-        </section>
+      <section class="banner__container">
+        <div class="banner__container__description">
+          <h1>Pruebas</h1>
+          <p>
+            Pruebas realizadas para verificar <br />
+            el correcto funcionamiento del proyecto
+          </p>
+        </div>
+      </section>
 
       <section class="pair__container">
         <div class="pair">
           <div class="pair__description">
-            <h1>Prueba 1</h1>
+            <h1>Prueba #1</h1>
+            <p><span class="important__subject">ID: </span>testGetAllAdmins</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
             </p>
           </div>
-          <img
-            src="../assets/images/projectTemplate.svg"
-            alt="project image"
-            class="pair__image"
-          />
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'getAllAdmins' en
+              la clase 'AdminService' al buscar todos los administradores en el
+              sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #2</h1>
+            <p>
+              <span class="important__subject">ID: </span>testGetAdminsByIds
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'findAdminByIds'
+              en la clase 'AdminService' al buscar administradores por sus IDs.
+            </p>
+          </div>
         </div>
       </section>
 
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #3</h1>
+            <p><span class="important__subject">ID: </span>testAddNewAdmin</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'saveAdmin' en la
+              clase 'AdminService' al agregar un nuevo administrador al sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #4</h1>
+            <p><span class="important__subject">ID: </span>testUpdateAdmin</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'updateAdmin' en
+              la clase 'AdminService' al actualizar la información de un
+              administrador existente en el sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #5</h1>
+            <p><span class="important__subject">ID: </span>testDeleteAdmin</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'deleteAdminById'
+              en la clase 'AdminService' al eliminar un administrador del
+              sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #6</h1>
+            <p><span class="important__subject">ID: </span>testGetAllGenres</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'getAllGenres' en
+              la clase 'GenreService' al buscar todos los géneros musicales en
+              el sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #7</h1>
+            <p>
+              <span class="important__subject">ID: </span> testGetGenresById
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'findGenreById'
+              en la clase 'GenreService' al buscar un género musical por su ID.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #8</h1>
+            <p><span class="important__subject">ID: </span> testAddNewGenre</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'saveGenre' en la
+              clase 'GenreService' al agregar un nuevo género musical al
+              sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #9</h1>
+            <p><span class="important__subject">ID: </span> testUpdateGenre</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'updateGenre' en
+              la clase 'GenreService' al actualizar la información de un género
+              musical existente en el sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #10</h1>
+            <p><span class="important__subject">ID: </span> testDeleteGenre</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'deleteGenreById'
+              en la clase 'GenreService' al eliminar un género musical del
+              sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #11</h1>
+            <p>
+              <span class="important__subject">ID: </span>
+              testGetAllPlayListHasSongs
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'getAllPlayListHasSongs' en la clase 'PlayListHasSongService' al
+              buscar todas las relaciones entre listas de reproducción y
+              canciones en el sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #12</h1>
+            <p>
+              <span class="important__subject">ID: </span>
+              testGetPlayListHasSongsById
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'findPlayListHasSongById' en la clase 'PlayListHasSongService' al
+              buscar una relación entre una lista de reproducción y una canción
+              por su ID.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #13</h1>
+            <p>
+              <span class="important__subject">ID: </span>
+              testAddNewPlayListHasSong
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              La prueba depende de las instancias de 'PlayListService' y
+              'SongService' para obtener una lista de reproducción y una
+              canción.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'savePlayListHasSong' en la clase 'PlayListHasSongService' al
+              agregar una nueva relación entre una lista de reproducción y una
+              canción en el sistema.
+            </p>
+          </div>
+        </div>
+
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #14</h1>
+            <p>
+              <span class="important__subject">ID: </span>
+              testDeletePlayListHasSong
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              La prueba depende de las instancias de 'PlayListService' y
+              'SongService' para obtener una lista de reproducción y una
+              canción.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'deletePlayListHasSongById' en la clase 'PlayListHasSongService'
+              al eliminar una relación entre una lista de reproducción y una
+              canción en el sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #15</h1>
+            <p>
+              <span class="important__subject">ID: </span>
+              testGetPlayListHasSongsByIdNull
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Carlos
+              Rojas
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              La prueba depende de las instancias de 'PlayListService' y
+              'SongService' para obtener una lista de reproducción y una
+              canción.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'testGetPlayListHasSongsByIdNull' en la clase
+              'PlayListHasSongService' al buscar una relación no existente entre
+              una lista de reproducción y una canción por su ID.
+            </p>
+          </div>
+        </div>
+
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #16</h1>
+            <p>
+              <span class="important__subject">ID: </span> testGetAllPlayLists
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'getAllPlayLists'
+              en la clase 'PlayListService' al buscar todas las listas de
+              reproducción en el sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #17</h1>
+            <p>
+              <span class="important__subject">ID: </span> testGetPlayListsById
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos una lista de reproducción en el
+              sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'findPlayListById' en la clase 'PlayListService' al buscar una
+              lista de reproducción por su ID.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #18</h1>
+            <p>
+              <span class="important__subject">ID: </span> testAddNewPlayList
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos un género musical en el sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'savePlayList' en
+              la clase 'PlayListService' al agregar una nueva lista de
+              reproducción al sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #19</h1>
+            <p>
+              <span class="important__subject">ID: </span>testDeletePlayListById
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos una lista de reproducción en el
+              sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'deletePlayListById' en la clase 'PlayListService' al eliminar una
+              lista de reproducción del sistema por su ID.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #20</h1>
+            <p>
+              <span class="important__subject">ID: </span>testDeletePlayList
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos una lista de reproducción en el
+              sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'deletePlayList'
+              en la clase 'PlayListService' al eliminar una lista de
+              reproducción del sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #21</h1>
+            <p>
+              <span class="important__subject">ID: </span
+              >testGetAllSongHasUserLikes
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'getAllSongHasUserLikes' en la clase 'SongHasUserLikeService' al
+              buscar todos los likes de usuarios en canciones en el sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #22</h1>
+            <p>
+              <span class="important__subject">ID: </span
+              >testGetSongHasUserLikesById
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos un like de usuario en una canción
+              en el sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'findSongHasUserLikeById' en la clase 'SongHasUserLikeService' al
+              buscar un like de usuario en una canción por su ID.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #23</h1>
+            <p>
+              <span class="important__subject">ID: </span
+              >testAddNewSongHasUserLike
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos una canción y un usuario en el
+              sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'saveSongHasUserLike' en la clase 'SongHasUserLikeService' al
+              agregar un nuevo like de usuario a una canción en el sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #24</h1>
+            <p>
+              <span class="important__subject">ID: </span
+              >testDeleteSongHasUserLike
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos un like de usuario en una canción
+              en el sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'deleteSongHasUserLikeById' en la clase 'SongHasUserLikeService'
+              al eliminar un like de usuario de una canción en el sistema por su
+              ID.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #25</h1>
+            <p>
+              <span class="important__subject">ID: </span
+              >testGetSongHasUserLikesByIdNull
+            </p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Carlos
+              Rojas
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>
+              Se requiere que exista al menos un like de usuario en una canción
+              en el sistema.
+            </p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método
+              'findSongHasUserLikeById' en la clase 'SongHasUserLikeService' al
+              buscar un like de un usuario inexistente en una canción por su ID
+              inexistente.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #26</h1>
+            <p><span class="important__subject">ID: </span>testGetAllSongs</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'getAllSongs' en
+              la clase 'SongService' al buscar todas las canciones en el
+              sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #27</h1>
+            <p><span class="important__subject">ID: </span>testGetSongsById</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>Se requiere que exista al menos una canción en el sistema.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'findSongById' en
+              la clase 'SongService' al buscar una canción por su ID.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #28</h1>
+            <p><span class="important__subject">ID: </span>testAddNewSong</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'addNewSong' en
+              la clase 'SongService' al agregar una nueva canción al sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #29</h1>
+            <p><span class="important__subject">ID: </span>testUpdateSong</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>Se requiere que exista al menos una canción en el sistema.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'updateSong' en
+              la clase 'SongService' al actualizar una canción en el sistema por
+              su ID.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #30</h1>
+            <p><span class="important__subject">ID: </span>testDeleteSong</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>Se requiere que exista al menos una canción en el sistema.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'deleteSong' en
+              la clase 'SongService' al eliminar una canción en el sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #31</h1>
+            <p><span class="important__subject">ID: </span>testGetAllUsers</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'getAllUsers' en
+              la clase 'UserService' al buscar todos los usuarios en el sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #32</h1>
+            <p><span class="important__subject">ID: </span>testGetUsersById</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>Se requiere que exista al menos un usuario en el sistema.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'findUserById' en
+              la clase 'UserService' al buscar un usuario por su ID.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #33</h1>
+            <p><span class="important__subject">ID: </span>testAddNewUser</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>No hay dependencias para esta prueba.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'addNewUser' en
+              la clase 'UserService' al agregar un nuevo usuario al sistema.
+            </p>
+          </div>
+        </div>
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #34</h1>
+            <p><span class="important__subject">ID: </span>testUpdateUser</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>Se requiere que exista al menos un usuario en el sistema.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'updateUser' en
+              la clase 'UserService' al actualizar un usuario en el sistema por
+              su ID.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pair__container">
+        <div class="pair">
+          <div class="pair__description">
+            <h1>Prueba #35</h1>
+            <p><span class="important__subject">ID: </span>testDeleteUser</p>
+            <p>
+              <span class="important__subject">Diseñada por: </span>Carlos Rojas
+            </p>
+            <p>
+              <span class="important__subject">Ejecutada por: </span>Stiven
+              Ortiz
+            </p>
+            <p>
+              <span class="important__subject">Resultados esperados: </span>Se
+              espera que la prueba pase correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Resultados reales: </span>La
+              prueba pasó correctamente (éxito).
+            </p>
+            <p>
+              <span class="important__subject">Cumplió: </span>Sí, la prueba
+              pasó sin problemas.
+            </p>
+          </div>
+          <div class="pair__description">
+            <h3>Dependencias de las pruebas</h3>
+            <p>Se requiere que exista al menos un usuario en el sistema.</p>
+            <h3>Descripción</h3>
+            <p>
+              Esta prueba verifica la funcionalidad del método 'deleteUser' en
+              la clase 'UserService' al eliminar un usuario en el sistema por su
+              ID.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
