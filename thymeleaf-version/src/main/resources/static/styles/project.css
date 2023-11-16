@@ -16,11 +16,11 @@ body {
   flex-shrink: 0;
   box-sizing: border-box;
   background: linear-gradient(
-      0deg,
-      rgba(13, 27, 42, 0.2) 0%,
-      rgba(13, 27, 42, 0.2) 100%
-    ),
-    url("../assets/images/wall1.jpg"), lightgray 50% / cover;
+          0deg,
+          rgba(13, 27, 42, 0.2) 0%,
+          rgba(13, 27, 42, 0.2) 100%
+  ),
+  url("../assets/images/wall1.jpg"), lightgray 50% / cover;
 }
 
 .banner__container__description {
@@ -48,7 +48,7 @@ body {
 .project__container__items {
   color: #778da9;
   font-family: Poppins;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -59,13 +59,15 @@ body {
   gap: 10%;
 }
 
+.project__container__items p{
+  max-width: 60rem;
+}
+
 .project__image {
   width: 100%;
   height: 37rem;
   border-radius: 3.125rem;
-  background: url("../assets/images/wall2.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("../assets/images/wall2.jpg") no-repeat center;
   box-sizing: border-box;
 }

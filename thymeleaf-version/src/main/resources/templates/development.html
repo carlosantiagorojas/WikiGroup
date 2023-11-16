@@ -24,11 +24,11 @@
     />
     <link rel="manifest" href="/assets/site.webmanifest" />
 
+    <link rel="stylesheet" href="/styles/development.css" />
     <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/common/header.css" />
     <link rel="stylesheet" href="/styles/common/footer.css" />
     <link rel="stylesheet" href="/styles/common/button.css" />
-    <link rel="stylesheet" href="/styles/development.css" />
     <title>Desarrollo</title>
   </head>
 
@@ -59,13 +59,19 @@
       </section>
 
       <section class="development__container">
+
+        <h3 style=" color: #fff;  text-align: center;  font-family: 'Poppins'; font-size: 2.25rem; font-style: normal;
+        font-weight: 600; line-height: normal; ">Endpoints para Administrador {/admin}</h3>
+
+        <!--        Create Read Updated Delete-->
+
         <div class="endpoint__container">
-          <div class="delete__container">
-            <span>DELETE</span>
+          <div class="post__container">
+            <span>POST</span>
           </div>
           <div class="items__container">
-            <span class="endpoint">Endpoint</span>
-            <span class="endpoint__description">Descripción</span>
+            <span class="endpoint">/add</span>
+            <span class="endpoint__description">Agrega un nuevo administrador a la base de datos.</span>
           </div>
         </div>
 
@@ -74,8 +80,18 @@
             <span>GET</span>
           </div>
           <div class="items__container">
-            <span class="endpoint">Endpoint</span>
-            <span class="endpoint__description">Descripción</span>
+            <span class="endpoint">/all</span>
+            <span class="endpoint__description">Obtiene todos los administradores de la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/{id}</span>
+            <span class="endpoint__description">Obtiene un administrador por su ID.</span>
           </div>
         </div>
 
@@ -84,8 +100,31 @@
             <span>PUT</span>
           </div>
           <div class="items__container">
-            <span class="endpoint">Endpoint</span>
-            <span class="endpoint__description">Descripción</span>
+            <span class="endpoint">/update/{id}</span>
+            <span class="endpoint__description">Actualiza un administrador en la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="delete__container">
+            <span>DELETE</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/admin/delete/{id}</span>
+            <span class="endpoint__description">Elimina un administrador de la base de datos por su ID.</span>
+          </div>
+        </div>
+
+        <h3 style=" color: #fff;  text-align: center;  font-family: 'Poppins'; font-size: 2.25rem; font-style: normal;
+        font-weight: 600; line-height: normal; ">Endpoints para Géneros {/genre}</h3>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/add</span>
+            <span class="endpoint__description">Agrega un nuevo género a la base de datos.</span>
           </div>
         </div>
 
@@ -94,10 +133,365 @@
             <span>POST</span>
           </div>
           <div class="items__container">
-            <span class="endpoint">Endpoint</span>
-            <span class="endpoint__description">Descripción</span>
+            <span class="endpoint">/addMany</span>
+            <span class="endpoint__description">Agrega varios géneros a la base de datos.</span>
           </div>
         </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all</span>
+            <span class="endpoint__description">Obtiene todos los géneros de la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/{id}</span>
+            <span class="endpoint__description">Obtiene un género por su ID.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/name/{name}</span>
+            <span class="endpoint__description">Obtiene un género por su nombre.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="put__container">
+            <span>PATCH</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/patch/{id}</span>
+            <span class="endpoint__description">Actualiza parcialmente un género en la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="put__container">
+            <span>PUT</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/update/{id}</span>
+            <span class="endpoint__description">Actualiza un género en la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="delete__container">
+            <span>DELETE</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/delete/{id}</span>
+            <span class="endpoint__description">Elimina un género de la base de datos por su ID.</span>
+          </div>
+        </div>
+
+        <h3 style=" color: #fff;  text-align: center;  font-family: 'Poppins'; font-size: 2.25rem; font-style: normal;
+        font-weight: 600; line-height: normal; ">Endpoints para Listas de Reproducción {/playlist}</h3>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/add</span>
+            <span class="endpoint__description">Agrega una nueva lista de reproducción a la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/addMany</span>
+            <span class="endpoint__description">Agrega varias listas de reproducción a la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all</span>
+            <span class="endpoint__description">Obtiene todas las listas de reproducción de la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/{id}</span>
+            <span class="endpoint__description">Obtiene una lista de reproducción por su ID.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="put__container">
+            <span>PUT</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/update/{id}</span>
+            <span class="endpoint__description">Actualiza una lista de reproducción en la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="put__container">
+            <span>PATCH</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/patch/{id}</span>
+            <span class="endpoint__description">Actualiza parcialmente una lista de reproducción en la base de datos.
+            </span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="delete__container">
+            <span>DELETE</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/delete/{id}</span>
+            <span class="endpoint__description">Elimina una lista de reproducción de la base de datos por su ID.</span>
+          </div>
+        </div>
+
+        <h3 style=" color: #fff;  text-align: center;  font-family: 'Poppins'; font-size: 2.25rem; font-style: normal;
+        font-weight: 600; line-height: normal; ">Endpoints para Relaciones entre Listas de Reproducción y Canciones
+          {/playlistHasSong}</h3>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/add/{playlistId}/{songId}</span>
+            <span class="endpoint__description">Agrega una nueva relación entre lista de reproducción y canción a la
+              base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all</span>
+            <span class="endpoint__description">Obtiene todas las relaciones entre listas de reproducción y canciones
+              de la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/get/{playlistId}/{songId}</span>
+            <span class="endpoint__description">Obtiene una relación entre lista de reproducción y canción por sus IDs.
+            </span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="delete__container">
+            <span>DELETE</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/delete/{playlistId}/{songId}</span>
+            <span class="endpoint__description">Elimina una relación entre lista de reproducción y canción de la base
+              de datos por sus IDs.</span>
+          </div>
+        </div>
+
+        <h3 style=" color: #fff;  text-align: center;  font-family: 'Poppins'; font-size: 2.25rem; font-style: normal;
+        font-weight: 600; line-height: normal; ">Endpoints para Canción {/song}</h3>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/add</span>
+            <span class="endpoint__description">Agrega una nueva canción a la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/addMany</span>
+            <span class="endpoint__description">Agrega varias canciones a la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all</span>
+            <span class="endpoint__description">Obtiene todas las canciones de la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all/genre/{id}</span>
+            <span class="endpoint__description">Obtiene todas las canciones de un género específico por su ID.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all/search/{partialName}</span>
+            <span class="endpoint__description">Busca canciones por un nombre parcial.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="put__container">
+            <span>PUT</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/update/{id}</span>
+            <span class="endpoint__description">Actualiza una canción en la base de datos por su ID.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="delete__container">
+            <span>DELETE</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/delete/{id}</span>
+            <span class="endpoint__description">Elimina una canción de la base de datos por su ID.</span>
+          </div>
+        </div>
+
+        <h3 style=" color: #fff;  text-align: center;  font-family: 'Poppins'; font-size: 2.25rem; font-style: normal;
+        font-weight: 600; line-height: normal; ">Endpoints para Relaciones entre Canciones y Usuarios {/songLike}</h3>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/add/{songId}/{userId}</span>
+            <span class="endpoint__description">Agrega una nueva relación entre una canción y un usuario a la base de
+              datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all</span>
+            <span class="endpoint__description">Obtiene todas las relaciones entre canciones y usuarios de la base de
+              datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/get/{songId}/{userId}</span>
+            <span class="endpoint__description">Obtiene la relación entre una canción y un usuario por sus IDs.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="delete__container">
+            <span>DELETE</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/delete/{songId}/{userId}</span>
+            <span class="endpoint__description">Elimina la relación entre una canción y un usuario de la base de datos
+              por sus IDs.</span>
+          </div>
+        </div>
+
+        <h3 style=" color: #fff;  text-align: center;  font-family: 'Poppins'; font-size: 2.25rem; font-style: normal;
+        font-weight: 600; line-height: normal; ">Endpoints para Usuario {/user}</h3>
+
+        <div class="endpoint__container">
+          <div class="post__container">
+            <span>POST</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/add</span>
+            <span class="endpoint__description">Agrega un nuevo usuario a la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/all</span>
+            <span class="endpoint__description">Obtiene todos los usuarios de la base de datos.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="get__container">
+            <span>GET</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/{id}</span>
+            <span class="endpoint__description">Obtiene un usuario por su ID.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="put__container">
+            <span>PUT</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/update/{id}</span>
+            <span class="endpoint__description">Actualiza un usuario en la base de datos por su ID.</span>
+          </div>
+        </div>
+
+        <div class="endpoint__container">
+          <div class="delete__container">
+            <span>DELETE</span>
+          </div>
+          <div class="items__container">
+            <span class="endpoint">/delete/{id}</span>
+            <span class="endpoint__description">Elimina un usuario de la base de datos por su ID.</span>
+          </div>
+        </div>
+
       </section>
     </main>
 

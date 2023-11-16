@@ -71,11 +71,11 @@ body {
 
   border-radius: 3.125rem 0rem 0rem 3.125rem;
   background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.2) 0%,
-      rgba(255, 255, 255, 0.2) 100%
-    ),
-    #ea2d2e;
+          0deg,
+          rgba(255, 255, 255, 0.2) 0%,
+          rgba(255, 255, 255, 0.2) 100%
+  ),
+  #ea2d2e;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   color: #e0e1dd;
@@ -164,17 +164,20 @@ body {
 
 .items__container {
   display: flex;
-  width: 47.625rem;
+  width: max-content;
   align-items: center;
   gap: 1.25rem;
   align-self: stretch;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .endpoint {
   color: #fff;
   text-align: center;
   font-family: Poppins;
-  font-size: 2.25rem;
+  font-size: x-large;
+  max-font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -183,7 +186,8 @@ body {
 .endpoint__description {
   color: #0d1b2a;
   font-family: Poppins;
-  font-size: 2.25rem;
+  font-size: large;
+  max-font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
